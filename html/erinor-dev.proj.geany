@@ -1,0 +1,37 @@
+[indentation]
+indent_width=3
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+indent_mode=2
+detect_indent_width=false
+
+[project]
+name=Erinor DEV
+base_path=/srv/http/erinor.pilirion.org/
+description=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=80
+
+[files]
+current_page=8
+FILE_NAME_0=4555;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fpages%2Fporadane%2F12-ladonka-stumelska.page.php;0;3
+FILE_NAME_1=1062;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fdbinstall.sys.php;0;3
+FILE_NAME_2=4144;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fpages%2Fporadane%2F1-erinoreni.page.php;0;3
+FILE_NAME_3=1606;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fprihlaseni-erinoreni.php;0;3
+FILE_NAME_4=0;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Flib%2Fsql.class.php;0;3
+FILE_NAME_5=2372;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fcron-erinoreni.php;0;3
+FILE_NAME_6=2190;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fadmin.php;0;3
+FILE_NAME_7=603;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Fpages%2Fuvod.page.php;0;3
+FILE_NAME_8=0;PHP;0;EUTF-8;0;1;0;%2Fsrv%2Fhttp%2Ferinor.pilirion.org%2Flib%2FSwift%2Fclasses%2FSwift%2FMessage.php;0;3
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=true
+
+[VTE]
+last_dir=/home/minastir/0sobní/Prgání/PrgOSY/dcv/teroristi

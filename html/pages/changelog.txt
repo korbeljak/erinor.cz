@@ -1,0 +1,166 @@
+﻿# LEGENDA
+# + = přidán soubor
+# - = odebrán soubor
+# ~ = změněn soubor (ALT+SHIFT+;)
+# : = popis změn  (ALT+SHIFT+;)
+# * = autor
+# /* = změněny všechny soubory v adresáři !!!
+
+15. 07. 2009 10:50
+* Kořen
++ img/mapy/lithen/lazovice.png
++ img/mapy/lithen/thumb/lazovice.png
+~ pages/svet/mapy.page.php
+: přidání mapy k připravovanému dílu.
+
+16. 07. 2009 23:35
+* Pilly
+~ pages/pravidla.page.php
+~ pages/pravidla/obchod-a-remesla.page.php
+~ pages/pravidla/souboj-zbrane-a-zbroje.page.php
+~ pages/pravidla/schopnosti.page.php
+~ pages/uvod.page.php
+
+
+02. 09. 2009 22:59
+* Pilly
+~ pages/pravidla.page.php
+~ pages/pravidla/obchod-a-remesla.page.php
+~ pages/pravidla/souboj-zbrane-a-zbroje.page.php
+~ pages/pravidla/schopnosti.page.php
+~ pages/pravidla/vlastnosti.page.php
+ 
+20. 09. 2009 23:30
+* Pilly
+~ pages/svet.page.php
++ pages/svet/mesto-lazovice.page.php
+
+21. 09. 2009 11:41
+* Pilly
+~ pages/pravidla/stavby.page.php
+
+29. 09. 2009 11:41
+* Pilly
+~ pages/uvod.page.php 
+~ pages/poradane.page.php 
+~ pages/poradane/9-odkaz-mlhy.page.php 
+-:přesunut do svetu:pages/poradane/poslove-baroneta-z-lazovic.page.php + img/fotky/001-018.jpg
+
+30. 9. 2009 18:02
+* Kořen 
++ /kalendar/lithensky_kalendar.php
+~ /pages/svet/nabozenstvi-lithenu.page.php
+~ /css/css.css
+~ /index.php
+~ /pages/pravidla/*
+~ /pages/knihovna.page.php
+~ /pages/pravidla.page.php
+
+30. 9. 2009 19:00
+* Kořen 
+~ /css/css.css
+~ /pages/svet.page.php
+~ /pages/svet/lithensky-kalendar.page.php
+
+1. 10. 2009 14:10
+* Kořen 
+~ /pages/svet/lithensky-kalendar.page.php
+~ /kalendar/lithensky_kalendar.php
++ /kalendar/adodb-time.inc.php
+
+2. 10. 2009 9:13
+* Kořen 
+~ /pages/poradane/9-odkaz-mlhy.page.php 
+~ /css/css.css
+~ /index.php
+~ /pages/uvod.page.php
+~ /pages/poradane.page.php
+~ /pages/poradane/7-chram-pokroku.page.php
+~ /pages/poradane/6-svitani-na-zapade.page.php
+~ /pages/poradane/5-kapka-krve.page.php
+~ /pages/pravidla/osobni-list.page.php
+~ /pages/pravidla/souboj-zbrane-a-zbroje.page.php
+~ /pages/pravidla/uceni.page.php
+~ /pages/pravidla/schopnosti.page.php
+~ /pages/svet/literatura-lithenu-I.page.php
+~ /pages/svet/lithensky-kalendar.page.php
+~ /pages/svet/nabozenstvi-lithenu.page.php
+~ /pages/svet/nabozenske-podrobnosti.page.php
+~ /pages/knihovna/mesicni-kopec.page.php
+~ /pages/kontakty.page.php
+
+2. 10. 2009 10:04
+* Kořen 
+~ /pages/*
+: POZOR, VŠECHNY STRÁNKY VE SLOŽCE /pages BYLY UPRAVENY!!!!!
+
+8. 10. 2009 17:42
+* Kořen
++ lib/pisemnosti.function.php
++ lib/texy.min.php
+~ .htaccess
+~ pages/od-hracu.page.php
+~ /css/css.css
+~ /index.php
++ pages/od-hracu/dokumenty.page.php
++ pages/od-hracu/ostatni.page.php
++ pages/od-hracu/hrbitov.page.php
++ pages/od-hracu/recenze.page.php
++ pages/od-hracu/postavy.page.php
++ pages/od-hracu/pridat-pisemnost.page.php
++ menus/od-hracu.menu.php
++ pisemnosti/
++ pisemnosti/ostatni/
++ pisemnosti/dokumenty/
++ pisemnosti/hrbitov/
++ pisemnosti/recenze/
++ pisemnosti/postavy/
+: přidaná možnost přidávat hráčské články. Editace přes FTP.
+
+16. 11. 2009 20:20
+* Pilly
+~ pages/uvod.page.php 
+~ pages/poradane.page.php
+
+19. 11. 2009 13:40* Pilly
+~ pages/uvod.page.php
+
+29. 12. 2009 8:23
+* Pilly
++ pages/poradane/10-na-puli-cesty.page.php
++ pages/poradane/11-bile-noci.page.php
+
+29. 12. 2009 9:50
+* Pilly
+~ pages/poradane.page.php
+
+13. 01. 2010 20:50
+* Pilly
+~ pages/poradane/10-na-puli-cesty.page.php
+
+21. 01. 2010 23:59
+* Pilly
+~ pages/poradane/10-na-puli-cesty.page.php
+
+16. 03. 2010 23:45
+* Pilly
+~ pages/poradane/10-na-puli-cesty.page.php 
+~ pages/poradane.page.php
+
+20. 03. 2010 23:51
+* Pilly
+~ pages/poradane/10-na-puli-cesty.page.php 
++ img/fotky/er10/*
++ img/fotky/thumbs/er10/*
+
+11. 04. 2010 10:55 
+* Kořen
+~ /index.php
+~ pages/uvod.page.php
+
+
+
+29. 12. 2009 8:23
+*Pilly
+~ pages/poradane.page.php
+ + pages/poradane/1-erinoreni.page.php

@@ -1,0 +1,28 @@
+
+[indentation]
+indent_width=3
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+indent_mode=2
+
+[project]
+name=Erinor DEV
+base_path=/var/www/erinor-dev/
+description=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=80
+
+[files]
+current_page=8
+FILE_NAME_0=4555;PHP;0;16;0;1;0;/var/www/erinor-dev/pages/poradane/12-ladonka-stumelska.page.php;0
+FILE_NAME_1=1062;PHP;0;16;0;1;0;/var/www/erinor-dev/dbinstall.sys.php;0
+FILE_NAME_2=4396;PHP;0;16;0;1;0;/var/www/erinor-dev/pages/poradane/1-erinoreni.page.php;0
+FILE_NAME_3=1606;PHP;0;16;0;1;0;/var/www/erinor-dev/prihlaseni-erinoreni.php;0
+FILE_NAME_4=0;PHP;0;16;0;1;0;/var/www/erinor-dev/lib/sql.class.php;0
+FILE_NAME_5=2372;PHP;0;16;0;1;0;/var/www/erinor-dev/cron-erinoreni.php;0
+FILE_NAME_6=2190;PHP;0;16;0;1;0;/var/www/erinor-dev/admin.php;0
+FILE_NAME_7=603;PHP;0;16;0;1;0;/var/www/erinor-dev/pages/uvod.page.php;0
+FILE_NAME_8=0;PHP;0;16;0;1;0;/var/www/erinor-dev/lib/Swift/classes/Swift/Message.php;0
