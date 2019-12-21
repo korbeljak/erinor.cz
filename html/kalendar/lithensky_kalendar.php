@@ -60,8 +60,8 @@ function checked_date($realDate, $winterSolsticeDate)
     {
         $seasonstrs = array("Zimy", "Jara", "Léta", "Podzimu");
         $eseason = (int)floor($days / (int)(13*7));
-        $eweek =  (int)floor(($days % (13*7)) / (int)13)+1;
-        $eday =  (int)floor(($days % (13*7)) % 13)+1;
+        $eweek = (int)floor(($days % (13*7)) / 7)+1;
+        $eday = (int)floor(($days % (13*7)) % 7)+1;
         $kratkonoc = "";
         if ($eseason == 2 && $eweek == 1 && $eday == 1)
         {
