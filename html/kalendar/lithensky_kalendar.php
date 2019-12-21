@@ -46,7 +46,7 @@ function checked_date($realDate, $winterSolsticeDate)
         $eyear += 10;
     }
     
-    echo "\n".$realDate->format("Y-m-d")." ".$winterSolsticeDate->format("Y-m-d")." ".$days."\n";
+    //echo "\n".$realDate->format("Y-m-d")." ".$winterSolsticeDate->format("Y-m-d")." ".$days."\n";
     
     if ($days > 364)
     {
