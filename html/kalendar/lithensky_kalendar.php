@@ -1,4 +1,94 @@
 <?php
+
+function winter_solstice($year)
+{
+    $dates = array("$year-12-20", "$year-12-21", "$year-12-22");
+    $shortest = NULL;
+    $day = NULL;
+    // Can be 20, 21, 22.
+    foreach ($dates as $date)
+    {
+        $sunrise = date_sunrise(strtotime($date),
+            SUNFUNCS_RET_DOUBLE,49.7477831,13.3783489,90,1);
+        $sunset = date_sunset(strtotime($date),
+            SUNFUNCS_RET_DOUBLE,49.7477831,13.3783489,90,1);
+        
+        // Calculate time difference:
+        $delta = $sunset-$sunrise;
+        if ($shortest === NULL)
+        {
+            $shortest = $delta;
+        }
+        else
+        {
+            if ($delta < $shortest)
+            {
+                $shortest = $delta;
+                $day = $date;
+            }
+        }
+    }
+    
+    return DateTime::createFromFormat("Y-m-d", $day);
+}
+
+
+function checked_date($realDate, $winterSolsticeDate)
+{
+    // Jsme za datem Zimního Slunovratu, napočteme tedy dny:
+    $days = $realDate->diff($winterSolsticeDate)->format("%a");
+    $eyear = $winterSolsticeDate->format("Y") - 575;
+    
+    $plus10y = DateTime::createFromFormat("Y-m-d", "2011-09-29");
+    if ($realDate > $plus10y)
+    {
+        // Preskocena valka s elfy.
+        $eyear += 10;
+    }
+    
+    echo "\n".$realDate->format("Y-m-d")." ".$winterSolsticeDate->format("Y-m-d")." ".$days."\n";
+    
+    if ($days > 364)
+    {
+        return "Jsou dlouhonoční svátky, dny, které nemají datum.";
+    }
+    elseif ($days == 0)
+    {
+        return "Je Dlouhonoc! 1. den 1. týdne Zimy roku ".$eyear;
+    }
+    else
+    {
+        $seasonstrs = array("Zimy", "Jara", "Léta", "Podzimu");
+        $eseason = (int)floor($days / (int)(13*7));
+        $eweek =  (int)floor(($days % (13*7)) / (int)13)+1;
+        $eday =  (int)floor(($days % (13*7)) % 13)+1;
+        $kratkonoc = "";
+        if ($eseason == 2 && $eweek == 1 && $eday == 1)
+        {
+            $kratkonoc = "Krátkonoc! ";
+        }
+        return "Je ".$kratkonoc.$eday.". den ".$eweek.". týdne ".$seasonstrs[$eseason]." roku ".$eyear;
+    }
+}
+
+function lithen_date($realDate)
+{
+    $winterSolsticeDate = winter_solstice($realDate->format("Y"));
+    
+    if ($realDate >= $winterSolsticeDate)
+    {
+        return checked_date($realDate, $winterSolsticeDate);
+    }
+    else
+    {
+        // Náš Slunovrat byl minulý rok, přepočítat:
+        $winterSolsticeDate = winter_solstice($realDate->format("Y") - 1);
+        return checked_date($realDate, $winterSolsticeDate);
+    }
+}
+
+
+/*
 include "adodb-time.inc.php";
 function lithenske_datum($datum){
 $rok = (int) adodb_date("Y", $datum);
@@ -27,12 +117,12 @@ $doby[]="Zimy";
 $doby[]="Jara";
 $doby[]="Léta";
 $doby[]="Podzimu";
-/*echo $cislo_dne."\n";
+echo $cislo_dne."\n";
 echo $den_v_obdobi."\n";
 echo $obdobi."\n";
 echo $tyden."\n";
 echo $den."\n";
-echo "Dnes je ".$den.". den ".($tyden+1).". týdne ".$doby[$obdobi];*/
+echo "Dnes je ".$den.". den ".($tyden+1).". týdne ".$doby[$obdobi];
 return array("den"=>$den, "tyden"=>($tyden+1), "obdobi"=>$doby[$obdobi], "rok"=>$letopocet);
 }
 function getLithenYear(){
@@ -40,9 +130,10 @@ function getLithenYear(){
    if($letopocet > 1434) $letopocet += 10;
    return $letopocet;
 }
-/*EXAMPLE:*/
+//EXAMPLE:
 //$a=lithenske_datum(mktime(0,0,0,20,12,575));
 //print_r($a);
 //echo adodb_date("d.m", mktime(0,0,0,12,19,1098));
 //echo cal_days_in_month(CAL_GREGORIAN, 2, 1098);
+*/
 ?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 setlocale(LC_CTYPE, 'cs_CZ.utf8');
 
@@ -8,40 +8,51 @@ $GLOBALS['path'] = substr($rootPath, 0, strrpos($rootPath, "/"))."/";
 require_once "kalendar/lithensky_kalendar.php";
 require_once "lib/pisemnosti.function.php";
 require_once "lib/texy.min.php";
-$kalendar = lithenske_datum(time());
-class parsePage{
+
+class ParsePage
+{
    public $separator = "----------";
    protected $source = "";
-   
+
    public $meta = "";
    public $page = "";
-   
-   public $title = ""; // výchozí hodnoty
-   public $description = ""; // výchozí hodnoty
-   public $keywords = ""; // výchozí hodnoty
-   
+
+   public $title = ""; // Default values.
+   public $description = ""; // Default values.
+   public $keywords = ""; // Default values.
+
    protected $chyby;
-   
-   public function __construct($source){
-      if(is_file($source)){
+
+   public function __construct($source)
+   {
+      if (is_file($source))
+      {
          $this->source = file_get_contents($source);
       }
-      else $this->chyby[] = "Zdrojový soubor nemohl být načten";
+      else
+      {
+         $this->chyby[] = "Zdrojový soubor nemohl být načten";
+      }
    }
-   public function splitPage(){
-      if(preg_match("/".preg_quote($this->separator)."/", $this->source)){
+   public function splitPage()
+   {
+      if (preg_match("/".preg_quote($this->separator)."/", $this->source))
+      {
          $page_part = explode($this->separator, $this->source);
          $this->meta = $page_part[0];
          $this->page = $page_part[1];
       }
-      else{
+      else
+      {
          $this->varovani[] = "Soubor nemá uvedené žádné metainformace";
          $this->meta = "";
          $this->page = $this->source;
       }
    }
-   public function extractMeta(){
-      if($this->meta != ""){
+   public function extractMeta()
+   {
+      if ($this->meta != "")
+      {
          if(preg_match("/title[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $t)) $this->title = $t[1];
          if(preg_match("/description[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $d)) $this->description = $d[1];
          if(preg_match("/keywords[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $k)) $this->keywords = $k[1];
@@ -50,36 +61,42 @@ class parsePage{
    }
 }
 
-?>
-<?php //echo $_GET['ca'];
-if(isset($_GET['ca']) &&
-   !isset($_GET['sc']) &&
-   !empty($_GET['ca']) &&   
-   is_file('pages/'.$_GET['ca'].'.page.php')
-){
+if (isset($_GET['ca'])
+   && !isset($_GET['sc'])
+   && !empty($_GET['ca'])
+   && is_file('pages/'.$_GET['ca'].'.page.php'))
+{
    $source = 'pages/'.$_GET['ca'].'.page.php';
 }
-elseif(isset($_GET['ca']) &&
-   isset($_GET['sc']) &&
-   !empty($_GET['ca']) &&
-   !empty($_GET['sc']) &&  
-   is_file('pages/'.$_GET['ca'].'/'.$_GET['sc'].'.page.php')
-){
+elseif (isset($_GET['ca'])
+        && isset($_GET['sc'])
+        && !empty($_GET['ca'])
+        && !empty($_GET['sc'])
+        && is_file('pages/'.$_GET['ca'].'/'.$_GET['sc'].'.page.php'))
+{
    $source = 'pages/'.$_GET['ca'].'/'.$_GET['sc'].'.page.php';
 }
-else{
+else
+{
    $source = 'pages/uvod.page.php';
 }
+
 /*MENU*/
 
-if(isset($_GET['ca']) && !empty($_GET['ca']) && is_file('menus/'.$_GET['ca'].'.menu.php')){
+if (isset($_GET['ca'])
+    && !empty($_GET['ca'])
+    && is_file('menus/'.$_GET['ca'].'.menu.php'))
+{
    $menu = 'menus/'.$_GET['ca'].'.menu.php';
 }
-else{
+else
+{
    $menu = 'menus/uvod.menu.php';
 }
+
 /*ASSIGN*/
-$pg = new parsePage($source);
+
+$pg = new ParsePage($source);
 $pg->title = "Stránky LARPu Erinor (pořádané skupinou Pilirion)";
 $pg->keywords = "larp, erinor, fantasy, dřevárny, roleplay";
 $pg->description = "Stránky LARPu Erinor";
@@ -88,15 +105,13 @@ $pg->extractMeta();
 $title = $pg->title;
 $keywords = $pg->keywords;
 $description = $pg->description;
-$obsah = $pg->page;
-$GLOBALS['token']=mt_rand(0,256);
-@$l = fopen('tmp/t'.$GLOBALS['token'].'.php', 'w');
-@fwrite($l, $obsah);
-@fclose($l);
+$contents = $pg->page;
+$tmpfname = tempnam(sys_get_temp_dir(), "t");
+$l = fopen($tmpfname, "w");
+fwrite($l, $contents);
+fclose($l);
 ?>
-
-<?/*TEMPLATE*/?>
-
+<?php /*TEMPLATE*/ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -113,7 +128,7 @@ $GLOBALS['token']=mt_rand(0,256);
 <script type="text/javascript" src="<?=$GLOBALS['path'];?>js/fotky.js"></script>
 <!--[if lte IE 6]>
 <link rel="shortcut icon" href="favicon.ico">
-<![endif]--> 
+<![endif]-->
 <link href="favicon.ico" rel="icon">
 </head>
 <body>
@@ -135,23 +150,25 @@ $GLOBALS['token']=mt_rand(0,256);
    <li><a href="knihovna/">Knihovna</a></li>
    <li><a href="od-hracu/">Od hráčů</a></li>
    <li><a href="dotazy/">Dotazy</a></li>
-   <li><a href="kontakty/">Kontakty</a></li>   
+   <li><a href="kontakty/">Kontakty</a></li>
 </ul>
 <div id="podmenu">
-<?php include($menu);?>
-<div id="erinorske_datum">Dnešní Erinorské datum: <?php if($kalendar!=FALSE): ?><?=$kalendar['den'];?>. den <?=$kalendar['tyden'];?>. týdne <?=$kalendar['obdobi'];?> roku <?=$kalendar['rok'];?><?php else: ?>Dnešní datum ve světě Erinoru neexistuje.<?php endif;?></div>
+<?php include($menu); ?>
+<div id="erinorske_datum">Dnešní Erinorské datum: <?=lithen_date(new \DateTime())?></div>
 </div>
 <div id="obsah">
-<?php @include('tmp/t'.$GLOBALS['token'].'.php');?>
+<?php @include($tmpfname); ?>
 </div>
 <div id="patka">
-<?/*<script src="<?=$GLOBALS['path'];?>js/fotky.js"></script>*/?>
-Copyright note:<br> design &amp; code: <a href="mailto:sirkubadorZAVINACseznamTECKAcz">sirkubador</a>, content: <a href="http://pilirion.cz">Pilirion</a> &amp; members<br>All rights reserved.<br>
+Copyright note:<br>
+design &amp; code: <a href="mailto:sirkubadorZAVINACseznamTECKAcz">sirkubador</a>,
+content: <a href="http://pilirion.cz">Pilirion</a> &amp; members<br>
+All rights reserved.<br>
 last modified: <?php echo date("j. n. Y H:i:s",filemtime("changelog.txt")); ?>
 </div>
 </div>
 </body>
 
 </html>
-<?php @unlink('tmp/t'.$GLOBALS['token'].'.php'); ?>
+<?php @unlink($tmpfname); ?>
 
