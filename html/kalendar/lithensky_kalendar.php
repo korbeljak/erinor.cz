@@ -50,7 +50,7 @@ function checked_date($realDate, $winterSolsticeDate)
     
     if ($days > 364)
     {
-        return "Jsou dlouhonoční svátky, dny, které nemají datum.";
+        return "Jsou dlouhonoční svátky, dny, na jejichž datum si nikdo ani nevzpomene.";
     }
     elseif ($days == 0)
     {
