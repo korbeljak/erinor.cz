@@ -8,15 +8,21 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 */ ?>
 <h1>Pořádané herní etapy</h1>
 <h2>Připravované</h2><hr>
-   <ul>
-	<li><a href="poradane/14-stribrni-kapri/">Erinor XIV. &ndash; Stříbrní kapři</a> (27.4. &ndash; 29.4. 2012)</li>
-   </ul>
-   
+<ul>
+  <li><a href="poradane/15-belladonna/">Erinor XV. &ndash; Belladonna</a> (2021)</li>
+</ul>
 
-<h2>Proběhlé</h2><hr><p class="r bez ui"><strong class="verze">Kapitola II.</strong></p>
+<h2>Proběhlé</h2><hr>
+<p class="r bez ui">
+<strong class="verze">Kapitola II.</strong>
+</p>
  <ul>
   <li><a href="poradane/13-kocici-zaklinani/">Erinor XIII. &ndash; Kočičí zaklínání</a> (30.9. &ndash; 2.10. 2011)</li>
- </ul><p class="r bez ui"><strong class="verze">Kapitola I.</strong></p>
+  <li><a href="poradane/14-stribrni-kapri/">Erinor XIV. &ndash; Stříbrní kapři</a> (27.4. &ndash; 29.4. 2012)</li>
+ </ul>
+<p class="r bez ui">
+<strong class="verze">Kapitola I.</strong>
+</p>
  <ul>
   <li><a href="poradane/12-ladonka-stumelska/">Erinor XII. &ndash; Ladoňka stumelská</a> (2. 4. 2011)</li>
   <li><a href="poradane/11-bile-noci/">Erinor XI. &ndash; Bílé noci</a> (24. &ndash; 28.9. 2010)</li>
