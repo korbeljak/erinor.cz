@@ -7,27 +7,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 ----------
 */ ?>
 <h1>Základní popis herního světa</h1>
-<?/*<div class="fotky">
-<a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>
-<a href="img/fotky/er8/002.jpg" class="thumb"><img src="img/fotky/thumbs/er8/002.jpg"></a>
-<a href="img/fotky/er8/003.jpg" class="thumb"><img src="img/fotky/thumbs/er8/003.jpg"></a>
-<a href="img/fotky/er8/004.jpg" class="thumb"><img src="img/fotky/thumbs/er8/004.jpg"></a>
-<a href="img/fotky/er8/005.jpg" class="thumb"><img src="img/fotky/thumbs/er8/005.jpg"></a>
-<a href="img/fotky/er8/006.jpg" class="thumb"><img src="img/fotky/thumbs/er8/006.jpg"></a>
-<a href="img/fotky/er8/007.jpg" class="thumb"><img src="img/fotky/thumbs/er8/007.jpg"></a>
-<a href="img/fotky/er8/008.jpg" class="thumb"><img src="img/fotky/thumbs/er8/008.jpg"></a>
-<a href="img/fotky/er8/009.jpg" class="thumb"><img src="img/fotky/thumbs/er8/009.jpg"></a>
-<a href="img/fotky/er8/010.jpg" class="thumb"><img src="img/fotky/thumbs/er8/010.jpg"></a>
-<a href="img/fotky/er8/011.jpg" class="thumb"><img src="img/fotky/thumbs/er8/011.jpg"></a>
-<a href="img/fotky/er8/012.jpg" class="thumb"><img src="img/fotky/thumbs/er8/012.jpg"></a>
-<a href="img/fotky/er8/013.jpg" class="thumb"><img src="img/fotky/thumbs/er8/013.jpg"></a>
-<a href="img/fotky/er8/014.jpg" class="thumb"><img src="img/fotky/thumbs/er8/014.jpg"></a>
-<a href="img/fotky/er8/015.jpg" class="thumb"><img src="img/fotky/thumbs/er8/015.jpg"></a>
-<a href="img/fotky/er8/016.jpg" class="thumb"><img src="img/fotky/thumbs/er8/016.jpg"></a>
-<a href="img/fotky/er8/017.jpg" class="thumb"><img src="img/fotky/thumbs/er8/017.jpg"></a>
-<a href="img/fotky/er8/018.jpg" class="thumb"><img src="img/fotky/thumbs/er8/018.jpg"></a>
-<a href="img/fotky/er8/019.jpg" class="thumb"><img src="img/fotky/thumbs/er8/019.jpg"></a>
-</div>*/?>
+
 <p>Tady se pokusím ve zkratce nastínit život a vzhled světa ve kterém se odehrává série Erinor. Znalost tohoto dokumentu je pro vaši postavu zásadní. Pokud se chcete dozvědět více, máme tu spoustu dalších zajímavých textů, které vám pomůžou k bližšímu pochopení světa, seznámení s ním a vžití do role.
 </p><p>Představme si nejprve geografii a politickou situaci. Erinor se odehrává v Lithénské federaci. Je to seskupení mnoha menších států od poměrně rozlehlých království až po maličká knížectví a baronství. Zástupci těchto států se scházejí společně ve Federálním sněmu, kde rozhodují o zákonech platných pro celý Lithén. Společné zákony se týkají hlavně vnější politiky, bezpečnosti, ale také postavení k víře a magii. Federace je docela rozlehlá, dosahuje od pásu se suchým subtropickým podnebím na jižní hranici Ragadornu s elfy až po subpolární oblast na řece Ogdě na severu. Na západě uzavírá známe uzemí pásmo velehor a na východě pak oceán.
 </p><p>V Lithénu se můžete potkat s lidmi, hobity, elfy, trpaslíky a vzácně i barbary. Samozřejmě lidí je nejvíce. Nelidské rasy se rády sdružují ve svá vlastní společenství žijící v tradičních oblastech odděleně od běžného dění. Jedině hobiti zcela bez problémů snášejí život mezi lidmi. Známá otázka druhizmu ve federaci není nijak palčivá, ale je faktem, že si rasy nerady nechávají zasahovat do svých zvyklostí lidmi a ti je naopak obvykle nepouštějí do vysokých státních funkcí. Míšení ras není běžné, ale není ani vyloučené. Je poměrně dobře tolerováno kněžími, a proto jej společnost obvykle přechází s mlčením.

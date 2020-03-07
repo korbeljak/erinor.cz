@@ -78,20 +78,15 @@ if(isset($_POST['odeslat']) && $_POST['odeslat']==="Odeslat písemnost!"){
       if(strlen($cislo0) == 2) $cislo = "0".$cislo0;
       if(strlen($cislo0) == 3) $cislo = $cislo0;
       $nazev=$cislo."_".txt2seo($_POST[$pref.'nazev']).".xml";
-      //echo $nazev;
+
       //příprava xml souboru
       $napln = "";
       $napln .= "<nazev>\n".strip_tags($_POST[$pref.'nazev'])."\n</nazev>";
       $napln .= "\n<cas>\n".date("j. n. Y H:i:s")."\n</cas>";
       $napln .= "\n<podpis>\n".strip_tags($_POST[$pref.'podpis'])."\n</podpis>";      
       $napln .= "\n<popis>\n".strip_tags($_POST[$pref.'popis'])."\n</popis>";
-      
       $napln .= "\n<obsah>\n".$_POST[$pref.'obsah']/*."\n</obsah>"*/;    
       
-      
-      //WTF?
-      
-      //$soub = $GLOBALS['path'].$cesta."/".$nazev;echo $soub;
       $soub = $cesta."/".$nazev;
       $f = fopen($soub, "w");
       if(fwrite($f, $napln)){
@@ -99,13 +94,6 @@ if(isset($_POST['odeslat']) && $_POST['odeslat']==="Odeslat písemnost!"){
       }
       else echo "Uložení souboru selhalo";
       fclose($f);
-      
-      /*
-      $tmp_pole["sekce"]=$_POST[$pref.'sekce'];
-      $tmp_pole["nazev"]=$_POST[$pref.'nazev'];
-      $tmp_pole["popis"]=$_POST[$pref.'popis'];
-      $tmp_pole["obsah"]=$_POST[$pref.'obsah'];
-      $tmp_pole["podpis"]=$_POST[$pref.'podpis'];*/
    }
 }
 $_SESSION["cislo_otazky"] = mt_rand(0, count($otazky)-1);

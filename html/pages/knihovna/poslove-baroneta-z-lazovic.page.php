@@ -7,27 +7,6 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 ----------
 */ ?>
 <h1>Mezidíl I. &ndash; Poslové Baroneta z Lazovic</h1>
-<?/*<div class="fotky">
-<a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>
-<a href="img/fotky/er8/002.jpg" class="thumb"><img src="img/fotky/thumbs/er8/002.jpg"></a>
-<a href="img/fotky/er8/003.jpg" class="thumb"><img src="img/fotky/thumbs/er8/003.jpg"></a>
-<a href="img/fotky/er8/004.jpg" class="thumb"><img src="img/fotky/thumbs/er8/004.jpg"></a>
-<a href="img/fotky/er8/005.jpg" class="thumb"><img src="img/fotky/thumbs/er8/005.jpg"></a>
-<a href="img/fotky/er8/006.jpg" class="thumb"><img src="img/fotky/thumbs/er8/006.jpg"></a>
-<a href="img/fotky/er8/007.jpg" class="thumb"><img src="img/fotky/thumbs/er8/007.jpg"></a>
-<a href="img/fotky/er8/008.jpg" class="thumb"><img src="img/fotky/thumbs/er8/008.jpg"></a>
-<a href="img/fotky/er8/009.jpg" class="thumb"><img src="img/fotky/thumbs/er8/009.jpg"></a>
-<a href="img/fotky/er8/010.jpg" class="thumb"><img src="img/fotky/thumbs/er8/010.jpg"></a>
-<a href="img/fotky/er8/011.jpg" class="thumb"><img src="img/fotky/thumbs/er8/011.jpg"></a>
-<a href="img/fotky/er8/012.jpg" class="thumb"><img src="img/fotky/thumbs/er8/012.jpg"></a>
-<a href="img/fotky/er8/013.jpg" class="thumb"><img src="img/fotky/thumbs/er8/013.jpg"></a>
-<a href="img/fotky/er8/014.jpg" class="thumb"><img src="img/fotky/thumbs/er8/014.jpg"></a>
-<a href="img/fotky/er8/015.jpg" class="thumb"><img src="img/fotky/thumbs/er8/015.jpg"></a>
-<a href="img/fotky/er8/016.jpg" class="thumb"><img src="img/fotky/thumbs/er8/016.jpg"></a>
-<a href="img/fotky/er8/017.jpg" class="thumb"><img src="img/fotky/thumbs/er8/017.jpg"></a>
-<a href="img/fotky/er8/018.jpg" class="thumb"><img src="img/fotky/thumbs/er8/018.jpg"></a>
-<a href="img/fotky/er8/019.jpg" class="thumb"><img src="img/fotky/thumbs/er8/019.jpg"></a>
-</div>*/?>
 <p>Pomalu se do kraje pod horami blížily Dlouhonoční svátky. Že by ale přinesly propuštění z tábora? Mírnější zacházení nebo snad méně práce a více jídla? Že by dlouhonoční obleva konečně prolomila ledy na rybnících a zastavila noční zamrzání Kačího potoka i čehokoli včetně krve v žilách těch, co zůstali přes noc venku?&nbsp;&hellip;&nbsp;Ne, to jistě ne.</p>
 <p>Až jednou&hellip;</p>
 <p>Do Dlouhonoci už chybělo posledních pár dnů, když s karavanou z nejbližší vesnice přišel i první člověk z města a s ním, koho by tu nikdo nečekal, jeden z mužů, kterým se na začátku zimy podařilo opustit tábor, jeden z místní inteligence, ten vysoký s dlouhým obličejem a kudrnatými vlasy. Dlouho ti dva seděli s úředníkem v jeho srubu. Pozvali si na jednání i zástupce vojenské správy v osobě nového kapitána táborové gardy. Jednali celý den a noc.</p>

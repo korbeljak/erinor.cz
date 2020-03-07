@@ -7,27 +7,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 ----------
 */ ?>
 <h1>Literatura Lithénu II &ndash; literatura sjednocování</h1>
-<?/*<div class="fotky">
-<a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>
-<a href="img/fotky/er8/002.jpg" class="thumb"><img src="img/fotky/thumbs/er8/002.jpg"></a>
-<a href="img/fotky/er8/003.jpg" class="thumb"><img src="img/fotky/thumbs/er8/003.jpg"></a>
-<a href="img/fotky/er8/004.jpg" class="thumb"><img src="img/fotky/thumbs/er8/004.jpg"></a>
-<a href="img/fotky/er8/005.jpg" class="thumb"><img src="img/fotky/thumbs/er8/005.jpg"></a>
-<a href="img/fotky/er8/006.jpg" class="thumb"><img src="img/fotky/thumbs/er8/006.jpg"></a>
-<a href="img/fotky/er8/007.jpg" class="thumb"><img src="img/fotky/thumbs/er8/007.jpg"></a>
-<a href="img/fotky/er8/008.jpg" class="thumb"><img src="img/fotky/thumbs/er8/008.jpg"></a>
-<a href="img/fotky/er8/009.jpg" class="thumb"><img src="img/fotky/thumbs/er8/009.jpg"></a>
-<a href="img/fotky/er8/010.jpg" class="thumb"><img src="img/fotky/thumbs/er8/010.jpg"></a>
-<a href="img/fotky/er8/011.jpg" class="thumb"><img src="img/fotky/thumbs/er8/011.jpg"></a>
-<a href="img/fotky/er8/012.jpg" class="thumb"><img src="img/fotky/thumbs/er8/012.jpg"></a>
-<a href="img/fotky/er8/013.jpg" class="thumb"><img src="img/fotky/thumbs/er8/013.jpg"></a>
-<a href="img/fotky/er8/014.jpg" class="thumb"><img src="img/fotky/thumbs/er8/014.jpg"></a>
-<a href="img/fotky/er8/015.jpg" class="thumb"><img src="img/fotky/thumbs/er8/015.jpg"></a>
-<a href="img/fotky/er8/016.jpg" class="thumb"><img src="img/fotky/thumbs/er8/016.jpg"></a>
-<a href="img/fotky/er8/017.jpg" class="thumb"><img src="img/fotky/thumbs/er8/017.jpg"></a>
-<a href="img/fotky/er8/018.jpg" class="thumb"><img src="img/fotky/thumbs/er8/018.jpg"></a>
-<a href="img/fotky/er8/019.jpg" class="thumb"><img src="img/fotky/thumbs/er8/019.jpg"></a>
-</div>*/?>
+
 <p>V 11. století dochází k uzavírání smluv mezi do té doby samostatnými, často znepřátelenými státy a k jejich postupné propojování. Vzniká tzv. První Lithénská federace (název ze 14. st.) obsahující asi 1/3 dnešních států Lithénu. Dále ve 12. století se přibližuje federace dnešní podobě. Většina listin a sjednocovacích smluv se dochovala až do dneška. Z této doby pochází také umělecké literatura většinou velmi optimistického obsahu, neboť jde o období míru, které bylo v nelehké době velice vítané. Objevují se zde často motivy národního cítění a hrdosti (až nacionalizmu). Některá díla z této doby byla brzy po svém uvedení zakázána, popřípadě jejich šíření bylo omezeno - jde o knihy autorů protestujících proti sjednocovacím změnám, anarchistů, separatistů a dalších živlů. (jejich díla zde nejsou uvedena).
 <br><br>
 Autoři sjednocovacích smluv a listin:

@@ -13,19 +13,9 @@ function setFlags($flags){
    $flagvar += (int) $flags["ramec"] * (1 << 1);
    $flagvar += (int) $flags["volna"] * (1 << 2);
    $flagvar += (int) $flags["druhapostava"] * (1 << 3);
-   //echo $flagvar;
+
    return $flagvar;
 }
-/*
-$flags["historie"] = true;
-$flags["ramec"] = false;
-$flags["volna"] = true;
-$flags["druhapostava"] = true;
-
-$fs = setFlags($flags);
-$f = getflags($fs);
-var_dump($f);
-*/
 
 session_start();
 header("Content-Type: text/html; charset=utf-8");

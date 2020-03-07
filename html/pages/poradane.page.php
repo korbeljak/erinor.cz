@@ -34,17 +34,3 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 <ul>
 <li><a href="poradane/1-erinoreni/">Erinoření I</a> (2. 4. 2011)</li>
 </ul>
-<?/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#C80000" SIZE="+1"><B>Připravované</B></font><BR>
-
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#C80000" SIZE="+1"><B>Proběhlé</B></font><BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er9.html" target="_self">Erinor - Odkaz mlhy</a> (25-28.9.2009)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er8.html" target="_self">Erinor - Otevřená náruč</a> (29.11.2008)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er7.html" target="_self">Erinor - Chrám pokroku</a> (5-7.9.2008)<br>   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er6.html" target="_self">Erinor - Svítání na západě</a> (5-7.10.2007)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er5.html" target="_self">Erinor - Kapka krve</a> (9.2.2007)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er4.html" target="_self">Erinor - Vláda peněz</a> (29.9.-1.10.2006)<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er3.html" target="_self">Erinor - Přechod pohoří Stumel</a> ( 12. - 14.5.2006)<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er2.html" target="_self">Erinor - Království Zimy</a> (3.-5.2.2006)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="erinor/er1.html" target="_self">Erinor - Podstata pravé víry</a> (18.11.2005)<p>
-*/?>

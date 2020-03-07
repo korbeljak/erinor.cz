@@ -37,16 +37,3 @@ a rozpoutání otázek o magii; podařilo se zachránit pouze část</dd>
    <dt><a href="knihovna/souboj-v-lese/">Souboj v lese</a></dt>
    <dd>vyprávění malého chlapce, kterému samotné stromy sdělily svůj příběh</dd>
 </dl>
-<?/*<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=5 FRAME="border">
-<A HREF="cesta.html">Otevřená náruč</FONT></A></TD><TD>Zápisky nalezené a přednesené knězem Sciollose, kdesi nedaleko Poddvorova</TD></TR>
-<A HREF="hobit.html">O hobitovi, který vyrostl</FONT></A></TD><TD>Nedávno vzniklá pohádka. Snad je na ní i něco pravdy.</TD></TR>
-<A HREF="modlitba.html">Modlitba</FONT></A></TD><TD>Vyprávění neznámé kněžky</TD></TR>
-<A HREF="kocicka.html">Kočička</FONT></A></TD><TD>Lidová pohádka poučující i malé děti, že si mají vážit i malého zvířátka</TD></TR>
-<A HREF="traktat.html">Traktát o magii Erinorské</FONT></A></TD><TD>Zakázané filozofické pojednání o zvláštní síle zvané magie.</TD></TR>
-<A HREF="mesic.html">Měsíční kopec</FONT></A></TD><TD>Zakázaná povídka z roku 643. Jako jediná dochovaná připouští existenci magie. Autor
-je neznámý. Můžeme pouze usuzovat na autobiografické zážitky. S největší pravděpodobností se jedná o zfalšované dílo k popuzení nejširší veřejnosti
-a rozpoutání otázek o magii. Podařilo se zachránit pouze část.</TD></TR>
-<A HREF="uryvky.html">Úryvky z deníku</FONT></A></TD><TD>Dokument nalezený gardou při zásahu proti zakázanému náboženskému kultu Čisté pravdy.</TD></TR>
-<A HREF="rec.html">Obřadní řeč</FONT></A></TD><TD>Záznam řeči kněze pořízený gardou při témže zásahu. </TD></TR>
-<A HREF="boj.html">Souboj v lese</FONT></A></TD><TD>Vyprávění malého chlapce, kterému samotné stromy zdělili svůj příběh. </TD></TR>
-</TABLE>*/?>
