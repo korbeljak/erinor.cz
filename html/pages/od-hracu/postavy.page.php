@@ -10,7 +10,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 <p>V této sekci se nachází popis postav ze světa Erinoru.</p>
 <?php
 $name = "postavy";
-if (!isset($this->ss))
+if (!empty($this->ss))
 {
     seznam_pisemnosti($name);
 }

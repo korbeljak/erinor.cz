@@ -11,7 +11,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 <p>V této sekci se nachází hráčské dokumenty ze světa Erinoru.</p>
 <?php
 $name = "dokumenty";
-if (!isset($this->ss))
+if (!empty($this->ss))
 {
     seznam_pisemnosti($name);
 }
