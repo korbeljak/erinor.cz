@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: schopnosti";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, schopnosti";
 description = "Stránky LARPu Erinor, pravidla pro schopnosti";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Schopnosti</h1>
 <p>Celý soubor schopností je rozčleněn na části - část schopností obecných, která bude vypsána zde; schopnosti pro obchod a řemesla ( jsou zapsány v daném odkazu) ; schopnosti speciální - v tomto souboru jsou zahrnuty schopnosti např. pro kněze, nekromanty, démonology atd.; unikátní schopnosti - to jsou schopnosti, jejichž znalost je v herním světě velice vzácná a můžete se s nimi setkat např. ve starobylých dokumentech.</p>
 <p>U každé schopnosti je v první závorce udán počet sp nutný na osvojení a v druhé závorce je udána minimální výše atributů, při které je už možno se danou schopnost učit.</p>

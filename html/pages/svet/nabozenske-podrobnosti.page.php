@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: náboženské podrobnosti";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, náboženství, podrobnosti";
 description = "Stránky LARPu Erinor, sekce svět, náboženské podrobnosti";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Náboženství &ndash; bohové</h1>
 <p>
 Většina obyvatel Lithénu jsou věřící, na ateisty připadá jen malý díl učenců, umělců a vyvrženců. Lithénští věřící uznávají existenci všech sedmi bohů, svoje motlitby však směřují většinou jen k jednomu z nich. Náboženství zde více méně zastupují filozofické směry, ke každému vyznání se pojí určitý způsob života (samozřejmě ne pro všechny vyznavače zcela shodný a přímo dodržovaný). Některá náboženství požadují po svých uctívačích časté motlitby a meditace, z jiných zas zasahuje do života jen filozofie a zásady. Na většině univerzit probíhají neustálé filozoficko - teologické pře a disputace. Vyznavači různých bohů i jednotlivých sekcí a směrů mezi sebou občas vedou boje.

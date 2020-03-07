@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Pořádané - Ladoňka stumelská";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, ladoňka, stumelská";
 description = "Stránky LARPu Erinor - sekce pořádané - Ladoňka stumelská";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinoření</h1>  
 <p> Chcete-li přijet na erinoření, čeká vás netradičně pojatý program, který bude mít dvě části. První částí je komorní larp - Bodlák a druhou larpově divadelní večer.
 Erinoření je akce pouze okrajově související z erinorem. Čerpá některé principy a stránky herního světa, jinak se ho nijak nedotýká. Tématem obou částí jsou mezilidské vztahy a lidské hodnoty.

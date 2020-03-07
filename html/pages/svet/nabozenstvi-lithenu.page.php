@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: náboženství Lithénu";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, náboženství, Lithén";
 description = "Stránky LARPu Erinor, sekce svět, náboženství Lithénu";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Náboženství</h1>
 <h3>Příroda</h3>
 <p><strong>Druidi lesů</strong> - jde o dosti fanatické vyznavače bohyně přírody, většinou žijí samotářským životem v lesích pohrouženi do svých modliteb nebo tvoří před okolním světem uzavřená společenství. Život rostlin a živočichů je jim milejší, než život lidský. Brání nejtemnější části lesů, svá svatá místa zbraněmi, nic a nikdo do nich neprojde bez jejich svolení. Proslýchá se o nich dokonce, že přírodě skládají občas i lidské oběti. V některých částech federace je takovéto uctívání přírody zakázáno.

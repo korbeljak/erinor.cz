@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Vláda peněz";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, vláda, peníze";
 description = "Stránky LARPu Erinor, sekce pořádané, Vláda peněz";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor IV. &ndash; Vláda peněz</h1>
 <div class="fotky">
 <a href="img/fotky/er4/001.jpg" class="thumb"><img src="img/fotky/thumbs/er4/001.jpg"></a>

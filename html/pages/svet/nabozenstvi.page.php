@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: náboženství";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, náboženství";
 description = "Stránky LARPu Erinor, sekce svět, náboženství";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Náboženství</h1>
 <dl>
    <dt><a href="svet/nabozenstvi-lithenu/">Náboženství Lithénu</a></dt>

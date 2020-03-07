@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor - sekce svět";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>Přehled výrobních řemesel</h1>
 <ul>
 <li><strong class="schopnost">Tesařina</strong> <em class="spcena">(1sp)(3 odl)</em>

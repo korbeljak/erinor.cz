@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Úryvky z deníku";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, deník, knihovna, úryvky";
 description = "Stránky LARPu Erinor, sekce knihovna, Úryvky z deníku";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Úryvky z Deníku</h1>
 
 

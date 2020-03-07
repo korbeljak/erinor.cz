@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>I. dodatek intolerančního patentu</h1>
 <p>1. den 1. týdne Léta roku 1434
 </p><p>Na základě výnosu federativního sněmu vchází 1. dne 1. týdne Léta roku 1434 v platnost dodatek k intolerančnímu patentu striktně zakazující tyto kněžské praktiky z důvodu jejich potenciální nebezpečnosti:

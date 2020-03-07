@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: základní popis";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, základní, popis";
 description = "Stránky LARPu Erinor, sekce svět, základní popis";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Správa oblasti</h2>
 <p>Část Nolgitu, Sedmipahorčí (, kde se odehrává Erinor - Kočičí Zaklínání) leží na pomezí dvou šlechtických panství.
 Pokud si to dobře pamatujete, Midsume-Nass leželo v jednom panství a Lochder ve druhém.

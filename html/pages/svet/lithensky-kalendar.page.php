@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Lithénský kalendář";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, Lithén, kalendář";
 description = "Stránky LARPu Erinor, sekce svět, Lithénský kalendář";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Lithénský kalendář</h1>
 <h3>Datumové přepočítávadlo:</h3>
 <br>

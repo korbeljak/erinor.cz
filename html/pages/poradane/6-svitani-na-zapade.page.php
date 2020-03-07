@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Svítání na západě";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, svítání, západ";
 description = "Stránky LARPu Erinor, sekce pořádané, Svítání na západě";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor VI. &ndash; Svítání na západě</h1>
 <div class="fotky">
 <a href="img/fotky/er6/001.jpg" class="thumb"><img src="img/fotky/thumbs/er6/001.jpg"></a>

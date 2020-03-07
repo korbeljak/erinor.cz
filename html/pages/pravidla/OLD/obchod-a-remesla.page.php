@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor - sekce svět";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>Obchod a řemesla</h1>
 <p>V této kapitole pravidel bude důkladně rozebrán systém herní obživy, obchodu, řemesel a schopnosti s tím jakkoli související.</p>
 <p>Zápis veškerých popsaných schopností se shoduje se zápisem v kapitole Schopnosti.</p>

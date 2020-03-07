@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Přechod pohoří Stumel";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, přechod, pohoří, Stumel";
 description = "Stránky LARPu Erinor, sekce pořádané, Přechod pohoří Stumel";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor III. &ndash; Přechod pohoří Stumel</h1>
 <div class="fotky">
 <a href="img/fotky/er3/001.jpg" class="thumb"><img src="img/fotky/thumbs/er3/001.jpg"></a>

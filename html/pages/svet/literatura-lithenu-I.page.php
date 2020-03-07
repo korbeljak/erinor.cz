@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Literatura Lithénu I";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, literatura, Lithén";
 description = "Stránky LARPu Erinor, sekce svět, Literatura lithénu I";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Literatura Lithénu I</h1>
 <?/*<div class="fotky">
 <a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor XIII. &ndash;  Kočičí zaklínání</h1>
 <h2>Ztráty</h2><div class="fotky">
 <a href="img/fotky/er13/00z5.jpg" class="thumb"><img src="img/fotky/thumbs/er13/00z5.jpg"></a>

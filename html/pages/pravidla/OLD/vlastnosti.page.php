@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: vlastnosti";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, vlastnosti";
 description = "Stránky LARPu Erinor, pravidla pro vlastnosti";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor, pravidla pro vlastnosti";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>Vlastnosti</h1>
 <p>Jak už bylo napsáno, na rozdíl od schopností si své vlastnosti můžete
 do hry vybrat předem &ndash; nemusíte se je učit. Platí pouze jedno omezení

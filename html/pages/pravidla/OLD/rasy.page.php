@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor - sekce svět";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 -
 ----------
+*/ ?>
 <h1>Rasy</h1>
 <p>Zde je přehled všech ras vyskytujících se v Lithénské federaci. Zároveň u každé budou popsány bonusy a postihy, obvyklý kostým, v kterém se její příslušníci pohybují, a s tím související nároky na kostým dané rasy. Pozorně si přečtěte popis dané rasy - nemusí se vždy jednat o notoricky známé pojetí dané rasy.</p>
 <h2>Lidé</h2>

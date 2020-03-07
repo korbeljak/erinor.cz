@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; kontakty";
 description = "larp, erinor, fantasy, dřevárny, roleplay, kontakty";
 keywords = "Stránky LARPu Erinor, sekce kontakty";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Rozpočet</h2>
 
 <table class="organizacni">

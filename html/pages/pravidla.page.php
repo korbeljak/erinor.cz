@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, pravidla";
 description = "Stránky LARPu Erinor, sekce pravidla";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <p class="r bez ui"><strong class="verze">verze 2.0</strong></p>
 <h2>Pravidla ke stažení</h2>
 <p>Prozatím, než se zbytek pravidel překóduje do online verze, jsou k dispozici pravidla alespoň ke stažení.</p>

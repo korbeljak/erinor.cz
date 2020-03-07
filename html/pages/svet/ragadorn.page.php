@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Ragadorn";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, ragadorn";
 description = "Stránky LARPu Erinor, sekce svět. Ragadornské království (Ragadorn)";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Ragadorn</h2>
 <p>
 <strong>Ragadornské království</strong> &ndash; království bylo ještě nedávno bohatou zemí. A to díky obchodu po řece Selze. Během války s elfy ale Ragadorn své postavení ztratil. Elfové již dlouhou dobu ohrožují deltu řeky Selgy. Mořská plavba byla tak velmi omezena. A ragadornské zásoby konzumuje velká část federační armády, která zabezpečuje jižní hranici s elfy.

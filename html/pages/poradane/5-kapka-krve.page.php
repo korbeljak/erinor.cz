@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Kapka krve";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, kapka, krev";
 description = "Stránky LARPu Erinor, sekce pořádané, Kapka krve";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor V. &ndash; Kapka krve</h1>
 <div class="fotky">
 <a href="img/fotky/er5/001.jpg" class="thumb"><img src="img/fotky/thumbs/er5/001.jpg"></a>

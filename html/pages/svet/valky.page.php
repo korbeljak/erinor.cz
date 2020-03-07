@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Války za federace</h1>
 <ul>
 <li>1. sjednocovací válka – utvořila se tkz. Menší konfederace. Byla spíš vedena na poli diplomatickém. Všechny státy Menší konfederace se staly součástí dnešní federace v podstatě dobrovolně jen pod pohrůžkou napadaní.

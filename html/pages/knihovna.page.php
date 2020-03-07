@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, knihovna";
 description = "Stránky LARPu Erinor, sekce knihovna";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Knihovna</h1>
 <p>Toto je knihovna herních dokumentů. Můžete si přečíst nejen odborná pojednání, ale i pohádky. Pro výtvory vašich postav a obecně díla hráčů, kteří chtějí přispět, je zde sekce "<a href="od-hracu/">Od hráčů</a>".</p>
 <dl>

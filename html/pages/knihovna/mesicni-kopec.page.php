@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Měsíční kopec";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, povídka, knihovna, měsíční, kopec";
 description = "Stránky LARPu Erinor, sekce knihovna, povídka Měsíční kopec";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Měsíční kopec</h1>
 
 <p>Na indigovém bezoblačném nebi zářil měsíc. Kulatý jako kolo od vozu a bledý tak, jak může být jen měsíční svit. Byla pravá půlnoc nejdelší noci roku. Lidé podvědomě zavírali okenice a dveře na petlice a k posteli si před spaním brali ostrý dřevěný kůl pod polštář. Všichni šli brzy spát, protože věděli, co se v tuhle dobu bude dít.

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Traktát o magii erinorské";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, knihovna, traktát, magie";
 description = "Stránky LARPu Erinor, sekce knihovna, Traktát o magii erinorské";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Traktát o magii Erinorské</h1>
 <p>Vím, že toto mé pojednání je velice odvážné a jako takové stojí samo daleko za hranicí zákonů Erinoru. Dovoluji si zde však tvrdit, že magie na Erinoru skutečně existovala, ba co více existuje dodnes. Popírat zašlou moc a slávu magie je přinejmenším hrubě pošetilé, lze bez pochybností tvrdit, že stála u samotného zrodu dnešní vyspělé kultury naší země. Zde si dovolím vzácnému učenému čtenáři vylíčit ve zkratce a srozumitelně historii její moci, vzestupu i pádu.
 </p><p>Je téměř s jistotou prokázáno (nejen mými dlouholetými bádáními, mnoho mích kolegů i spisy těch již zesnulých Vám toto potvrdí), že v dávných časech se vyvíjela magie současně s vědou a kulturou, vzájemně propojeně pomáhaly si v cestě k vyššímu vědění, rozvíjely jedna druhou, ruku v ruce téměř sestersky stoupaly k výšinám. V těchto dobách byli čarodějníci a mistři věd magických drženi ve veliké úctě a vážnosti všemi lidmi Erinoru. Jejich umění potřebovali všichni, pomoc si nižádný nedovolil odmítnout, ba žádána byla a hodnocena nejen společensky i ve zlatě ryze královsky. Rodinám bylo ctí mít syna magika, šlechtickým dvorům prestiží a městům nutností. Magie ve své moci dokázala mnohé dnes nemyslitelné, ovlivnit počasí i vyléčit dobytek, vůlí přenášet zprávy i ovládat lidi, krotit vodu i oheň. Dokázala ovládat lidské duše, zemřelého přivézt k životu z cesty, ze níž se nevrací zpět. A bez ustání její síla rostla rozvíjena komunitou magiků všech národů.

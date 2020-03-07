@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: platidla";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, platidla";
 description = "Stránky LARPu Erinor, sekce svět, platidla";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Platidla</h1>
 <?/*<div class="fotky">
 <a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>

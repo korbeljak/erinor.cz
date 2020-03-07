@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Obřadní řeč";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, obřad, řeč, knihovna";
 description = "Stránky LARPu Erinor, sekce knihovna, Obřadní řeč";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Obřadní řeč</h1>
 <p>I vy, kteříc bezvěrci prostými jste, slyšte slova představeného, nejvyššího boha našeho, kterýc se obtěžoval námi. Poslyšte vůli jeho, jakožto i vůli naši budoucí, kterouc pokorně plniti a svorně pospolu držeti budem. Svého Boha jediného pravého, svého milosrdného obdarovatele, kterýc nás vzal na milost. Bratři a sestry, slyšte vůli Boha, kterýc své myšlenky na vás skrze mne přenášeti bude.
 </p><p>Věřte, že život je jen stádium hledání sama sebe, ale ti co již poznali sílu víry jediného, našli smysl jejich bytí a ví, že smrt je jen vykoupení do jiného lepšího života, avšak to přijde, až všechny plány Nejvyššího s námi budou naplněny. Do té doby nám Nejvyšší snažiti se bude naši pouť pozemskou co nejvíce usnadniti nám.

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor XI. &ndash;  Bílé noci</h1>
 <div class="fotky">
 <a href="img/fotky/er11/001.jpg" class="thumb"><img src="img/fotky/thumbs/er11/001.jpg"></a>

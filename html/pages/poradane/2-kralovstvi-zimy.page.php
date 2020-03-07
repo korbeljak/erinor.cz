@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Království zimy";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, království, zima";
 description = "Stránky LARPu Erinor, sekce pořádané, Království zimy";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor II. &ndash; Království Zimy</h1>
 <div class="fotky">
 <a href="img/fotky/er2/001.jpg" class="thumb"><img src="img/fotky/thumbs/er2/001.jpg"></a>

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Úryvky z deníku";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, deník, knihovna, úryvky";
 description = "Stránky LARPu Erinor, sekce knihovna, Úryvky z deníku";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Pohroma léta 1445</h2>
 <p>Vše začalo tím, že už druhý týden pršelo. V Oblasti jako je tato to není nic zas až tak neobvyklého. Tyhle lijáky byly ale jiné. Slabší déšť střídal silný a zase se utišoval. Bylo to něco co jsme neznali. Kvílející vítr v noci naháněl hrůzu. Prakticky nikdo nevycházel z domu, pokud to nebylo opravdu nutné a to, že si v přístavní vesnici Midsumme-nass všimli prvních prasklin na svahu, byl zázrak. 
  </p><p>    Praskliny jsme brali na lehkou váhu a něco se začalo dít až po tom co se utrhl tak metr svahu a kus odjel. Lidi pod utrženým místem a blízko něj utekli do městečka Lochder, zbytek setrvával doma a nikdo si nemyslel, že může být ještě hůře. Co mi tady u přístavu, kde je 6 stavení, ale v nedaleké Hudeno-nass se začal trhat svah také. 

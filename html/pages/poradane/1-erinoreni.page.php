@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Pořádané - Ladoňka stumelská";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, ladoňka, stumelská";
 description = "Stránky LARPu Erinor - sekce pořádané - Ladoňka stumelská";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinoření</h1>  
 <p> Erinoření byl netradičně pojatý program připravený pro hráče, kteří se nevešli do přihlašování, či nemohli účastnit Ladoňky. Mělo dvě části. První částí byl komorní larp - Bodlák a druhou larpově divadelní večer.
 Erinoření byla akce pouze okrajově související z erinorem. Čerpá některé principy a stránky herního světa, jinak se ho nijak nedotýká. Tématem obou částí jsou mezilidské vztahy a lidské hodnoty.

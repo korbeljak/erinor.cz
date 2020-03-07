@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Úryvky z deníku";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, deník, knihovna, úryvky";
 description = "Stránky LARPu Erinor, sekce knihovna, Úryvky z deníku";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Lochderské pohádky a pověsti</h1>
 <h2>O elfech a trpaslících</h2><br>
 <strong>(Oblíbená pohádka místních dětí.)</strong>

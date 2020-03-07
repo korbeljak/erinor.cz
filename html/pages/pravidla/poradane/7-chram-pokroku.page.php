@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Chrám pokroku";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, chrám, pokrok";
 description = "Stránky LARPu Erinor, sekce pořádané, Chrám pokroku";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor VII. &ndash; Chrám pokroku</h1>
 <div class="fotky">
 <a href="img/fotky/er7/001.jpg" class="thumb"><img src="img/fotky/thumbs/er7/001.jpg"></a>

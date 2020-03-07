@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Desetiletá válka s elfy: 1433 &ndash; 1443";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, válka, elfové";
 description = "Stránky LARPu Erinor, sekce svět. Desetiletá válka s elfy: 1433 až 1443";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Desetiletá válka s elfy: 1433 &ndash; 1443</h2>
 <p>
 Válka s černými elfy začala v roce 1433. Předcházelo jí zostření střetů na hranici, několik průniků elfů přes Ragadornskou zeď. V roce 1433 pak definitivně prolomili obranou linii království a probili se před zimou až do Brenenhoffu. Z počátku neviděla Federace elfy jako takovou hrozbu, jednak podcenila jejich nové zbraně a také dobře věděla, že mají problémy s nedostatkem kvalitního železa pro jejich výrobu.

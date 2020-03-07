@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Rasy";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, rasy";
 description = "Stránky LARPu Erinor - sekce rasy";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor - sekce rasy";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 
 ----------
+*/ ?>
 
 <h1>Ekonomická pravidla</h1>
 

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Obecně známé výňatky z Eirského dekretu</h1>
 <p>
 <strong>I.I</strong> Zástupci všech zúčastněných stran, tj.Alderachu, Mezihorska, Ragadornu, Dhargetského středozemí, Nolgithských zemí, Irothu, Království Albirey a ostrova Eir, jednoznačně popírají jakoukoli možnost existence dosud nevysvětlených domělých jevů označovaných jako magie, či kouzla.

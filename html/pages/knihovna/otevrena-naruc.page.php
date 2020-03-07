@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Otevřená náruč";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, povídka, knihovna, otevřená, náruč";
 description = "Stránky LARPu Erinor, sekce knihovna, povídka Otevřená náruč";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Otevřená náruč</h1>
 <p>"Posaďte se přátelé. Dnes jsem se rozhodl s vámi popřemýšlet o tom jaké vzpomínky si sebou nesete a co si z nich odnést. Vyšel jsem dnes ráno ven s tím, že si půjdu pro příděl na snídani. Mé boty se každým krokem zakusovali do vrstvy čerstvého sněhu, po kterém ten den ještě nikdo nešel. Ten zvuk mám moc rád. Až v jednu chvíli sníh nechřoupnul. Ve sněhu na zemi se válel pergamen. Přečetl jsem si ho a teď ho přečtu vám. Nechci vám obnovit špatné vzpomínky, jen poslouchejte o čem ten vzdělaný muž přemýšlel. Pak si o tom ještě pohovoříme.
 </p><br>

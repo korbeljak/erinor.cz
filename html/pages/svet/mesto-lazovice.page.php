@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: město Lazovice";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, město, Lazovice";
 description = "Stránky LARPu Erinor, sekce svět, město Lazovice";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Lazovice</h1>
 <p>Každý návštěvník města na první pohled pozná, že je něco zvláštního na městských stavbách. Jako kdekoli jinde se tu střídají domy ze dřeva, cihel a kamene. Ty cihlové jsou celkem vzácné, kamenné pak udivují na první pohled tím, že materiál na jejich stavbu je velice tmavý, tmavošedý skoro černý hrubý kámen. 
 </p><p>Město je obklopeno z jedné strany řekou a z druhé vodním příkopem, celé je vybudováno na malém vyvýšeném ostrohu nad řekou. Nedaleko města se tyčí starý hrad, známé sídlo baroneta.

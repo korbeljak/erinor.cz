@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: souboj, zbraně a zbroje";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, souboj, zbraně, zbroje";
 description = "Stránky LARPu Erinor, pravidla pro souboj, zbraně a zbroje";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Souboj, zbraně a zbroje</h1>
 <h2>Sesílání</h2>
 <p><strong>Sesílání intervence/kouzla</strong> (nikoliv vyvolávání rituálem) má dosah <strong>"na doslech"</strong>, účinek nabývá,

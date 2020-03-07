@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořáda0né skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Stavby</h1>
 <h3>Domy</h3>
 <p>Vlastnictví herního domu je všeobecně značně výhodné. Majitel získává bonus, který se odvíjí od druhu domu, který si pořídil. Každý vlastník pokud si zakoupí dům dostane klíč od domu, vlastnickou listinu a kolík s domem. Kam dům umístíte je na vás, ale organizátory bude vytyčeno město, ve kterém kromě zmíněného bonusu získáváte ještě zisk z domu. vlastnická listina vás opravňuje k žádání zisku z domu, který činí 1/3 nákladů na stavbu. Zároveň však musíte počítat s tím, že rada města občas vyhlásí mimořádnou daň z domů. Existují 3 základní typy domů:</p>

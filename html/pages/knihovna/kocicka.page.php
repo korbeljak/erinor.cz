@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Kočička";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, povídka, knihovna, kočička";
 description = "Stránky LARPu Erinor, sekce knihovna, povídka Kočička";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Kočička</h1>
 <p>Tmou brzkého rána, toho bezútěšného času před úsvitem, přelétla přes stezku podivná bytost, stín či mámení. Pak se na cestě objevila černá kočka se žhnoucíma zlatýma očima.
 </p><br>

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: O hobitovi, který vyrostl";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, povídka, knihovna, hobit";
 description = "Stránky LARPu Erinor, sekce knihovna, O hobitovi, který vyrostl";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>O hobitovi, který vyrostl</h1>
 <p>Za sedmero kopci a devatero řekami tekl malý potůček. A v nejkrásnějším zákrutu potůčku hned pod březovým hájem se rozkládala malá víska. Z komínů stoupal hustý kouř a krajem se nesla vůně čerstvého chleba. V té vesničce žili malí lidičkové se zakulacenými bříšky, veselí a přívětiví. A mezi nimi, nerozpoznatelný od jiných půlčíků, vyrůstal i Čepek Dlouhoprst.
 </p><p>Čepek byl chlapec menšího vzrůstu s tmavými vlasy nakrátko střiženými a pronikavým pohledem. Už odmala však byl neposedný a plný nezkrotné touhy po dobrodružství. Jeho maminka ho přísně napomínala, ať vypustí z hlavy všechny ty nesmysly o obrech, dracích a pokladech, ale on na její příkazy pranic nedbal a toulal se po okolí dál než bylo pro tak malého hobita zdrávo.

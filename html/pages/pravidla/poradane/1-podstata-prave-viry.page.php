@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Podstata pravé víry";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, podstata, víra";
 description = "Stránky LARPu Erinor, sekce pořádané, Podstata pravé víry";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor I. &ndash; Podstata pravé Víry</h1>
 <div class="fotky">
 <a href="img/fotky/er1/001.jpg" class="thumb"><img src="img/fotky/thumbs/er1/001.jpg"></a>

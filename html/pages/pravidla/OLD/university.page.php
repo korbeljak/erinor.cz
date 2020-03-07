@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor - sekce svět";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>University</h1>
 <h2>Vyšší škola řemesel, obchodu a alchymie</h2>
 <p>1312 založená instituce je dneska jednou z velmi uznávaných v celém Alderahu. Je tomu však nasnadě, že dodnes nemá status univerzity. Podle Lithénských regulí totiž není možné, aby barom založil universitu.</p> 

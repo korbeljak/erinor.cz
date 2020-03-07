@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Osobní list</h1>
 <p>Při každé nové registraci obdržíte osobní list (dále OL), do něhož jsou zapisovány veškeré údaje, které charakterizují vaši postavu a umožňují tak přehled vašich dovedností, vlastností a shrnují poznámky nutné ke hře. Jedná se o neherní věc, sloužící čistě pro vaše a organizátorské účely - tudíž žádný jiný hráč nemá právo do vašeho OL nahlížet. Ve hře ho musí mít každý hráč u sebe!
 </p>

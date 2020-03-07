@@ -1,9 +1,11 @@
-﻿title = "Stránky LARPu Erinor (pořádané skupinou Pilirion)";
+﻿<?php /*
+title = "Stránky LARPu Erinor (pořádané skupinou Pilirion)";
 description = "larp, erinor, fantasy, dřevárny, roleplay";
 keywords = "Stránky LARPu Erinor";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Úvod</h1>
 <?/* pripustne typy P tagu - class: novinka, oprava, upozorneni */?>
 <div class="novinkovnik">

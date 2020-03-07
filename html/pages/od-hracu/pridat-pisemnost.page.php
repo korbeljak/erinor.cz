@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion)";
 description = "larp, erinor, fantasy, dřevárny, roleplay";
 keywords = "Stránky LARPu Erinor";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <?php
 $otazky = array(
 "Kdy byl založen Lazovar? (Nápověda: Příští rok tomu bude sto padesát let)",

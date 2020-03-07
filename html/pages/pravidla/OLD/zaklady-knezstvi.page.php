@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: základy kněžství";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, kněžství, základy";
 description = "Stránky LARPu Erinor, pravidla pro základy kněžství";
@@ -6,6 +7,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 
 Opraveno, lehce přestylizováno
 ----------
+*/ ?>
 
 <h1>Kněžství</h1>
 <p>Kněžství je soubor schopností umožňující komunikovat s bohy a

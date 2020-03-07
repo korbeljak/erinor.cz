@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Darget";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, darget";
 description = "Stránky LARPu Erinor, sekce svět. Dargetské knížectví (Darget)";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Darget</h2>
 <p>
 <strong>Dargetské knížectví</strong> &ndash; dargetský kníže je mezi ostatní šlechtou hanlivě nazýván knížetem kupeckým. Ekonomiku malého státu založil totiž na obchodních vztazích. Darget vyrábí pouze ceněné luxusní zboží. Je sice malou ale velmi vyspělou zemí. Zřizují se státní manufaktury na výrobu drahých látek, koberců a parfému. Mimoto jdou přes Darget všechny kupecké stezky mířící na jih do Alderahu, Ragadornu a Eiru. Tato malá země také ovládá mořský obchod. Po oslabení Ragadornu vybudovali dargetští stabilní loďstvo o převzali Ragadornské úvazky. 

@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: noční hra";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, noční, hra";
 description = "Stránky LARPu Erinor, pravidla pro noční hru";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor, pravidla pro noční hru";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>Pravidla pro noční hru</h1>
 <h3>Zbraně</h3>
 <ul>

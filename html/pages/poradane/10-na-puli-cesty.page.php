@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor X. &ndash; Hospoda na půli cesty</h1>
 <h2>Epilog</h2>
 <p>Najednou se svět kolem tebe zavlnil. A znovu. Pomalu sis začal uvědomovat, že ti někdo třese ramenem. Začal ses probouzet. Byl den a ty jsi ležel v posteli doma v Lazovicích. Velmi zmateně jsi párkrát zamrkal a pokoušel se rychle pochopit, co se děje. A uvěřit tomu, co tvoje rozespalé oči vidí.

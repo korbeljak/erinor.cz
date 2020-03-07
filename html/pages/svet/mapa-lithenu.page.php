@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: mapa Lithénu";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, mapa, Lithén";
 description = "Stránky LARPu Erinor, sekce svět, mapa Lithénu";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Mapa Lithénu a přilehlých oblastí</h1>
 
 <p>Názvy oblastí uvedené na mapě nejsou většinou jména dnešních států a příliš nevypovídají o jejich hranicích. Jde jen o názvy tradičních oblastí. Ve většině oblastí dnes najdete několik menších států jejichž hranice se velice často posouvají a mění. Proto nemá příliš cenu je zakreslovat.

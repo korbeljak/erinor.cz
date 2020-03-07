@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor - sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Mapy herního světa</h1>
 <p>Zde měly být k nalezení různě podrobné mapy vztahující se k celému lithénu nebo velkým oblastem.</p>
 <p>Mapy jsou buď samostatně a je na ně pouze odkaz nebo je na stránce u jejich zmenšeniny popis, příp. vysvětlivky atd&hellip;</p> 

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pořádané: Odkaz mlhy";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pořádané, odkaz, mlha";
 description = "Stránky LARPu Erinor, sekce pořádané, Odkaz mlhy";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Erinor IX. &ndash; Odkaz mlhy</h1>
 <h2>Epilog</h2>
 <div class="fl c ita ui" style="width: 300px;">

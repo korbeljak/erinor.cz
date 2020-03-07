@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět";
 description = "Stránky LARPu Erinor, sekce svět";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Svět a herní pozadí</h1>
 <p>Zde se můžete dočíst o jednotlivých stránkách herního světa. Pro nové hráče je sepsán <a href="svet/zakladni-popis/" title="základní popis herního světa">základní popis</a>, ve kterém se dozví ty nejzákladnější informace, které zná každý a jsou pro hru důležité.</p>
 <p>Všechny ostatní dokumenty vám mohou pomoci dotvářet vaší postavu, herní historii nebo představu o světě:</p>

@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; od hráčů: Postavy";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, hráči, postavy";
 description = "Stránky LARPu Erinor, sekce od hráčů, Postavy";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 
 <?php
 if(!isset($_GET['ss'])){?>

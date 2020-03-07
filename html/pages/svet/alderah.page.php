@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Alderah";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, alderah";
 description = "Stránky LARPu Erinor, sekce svět. Alderažské baronství (Alderah)";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h2>Alderah</h2>
 <p>
 <strong>Alderaššké baronství</strong> &ndash; zemědělská oblast. Díky poloze mezi horami má stabilní klima vhodné pro pěstování odolnějších plodin. Pěstují se obilniny a odolnější zelenina. Z ovoce pouze jablka, slivoně a hrušky. 

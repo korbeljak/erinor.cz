@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; knihovna: Modlitba";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, povídka, knihovna, modlitba";
 description = "Stránky LARPu Erinor, sekce knihovna, povídka Modlitba";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Modlitba</h1>
 
 <p>Na starém hřbitově se objevilo několik nových hrobů. Mě však zaujaly jen dva. Byly blízko sebe, tak blízko, že se dalo dotknout obou náhrobků současně. I jinak se lišily od ostatních. Na první pohled bylo patrné, že patřily nějakým důležitým osobám, neboť byly o něco honosnější, než okolní...

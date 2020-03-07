@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; svět: Lithénská pečeť";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, Lithén, pečeť";
 description = "Stránky LARPu Erinor, sekce svět, Lithénská pečeť";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <h1>Lithénská pečeť</h1>
 <?/*<div class="fotky">
 <a href="img/fotky/er8/001.jpg" class="thumb"><img src="img/fotky/thumbs/er8/001.jpg"></a>

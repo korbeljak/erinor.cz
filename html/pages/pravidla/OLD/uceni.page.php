@@ -1,3 +1,4 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; pravidla: učení";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, pravidla, učení";
 description = "Stránky LARPu Erinor, pravidla pro učení";
@@ -5,6 +6,7 @@ description = "Stránky LARPu Erinor, pravidla pro učení";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 +
 ----------
+*/ ?>
 <h1>Učení</h1>
 <p>Novým schopnostem se může postava učit několika způsoby:</p>
 <ul>
