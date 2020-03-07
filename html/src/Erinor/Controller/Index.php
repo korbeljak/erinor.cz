@@ -70,6 +70,7 @@ class Index
         {
             $properties["ss"] = $args['ss'];
         }
+        var_dump($properties);
         
         $page = new \Core\Page($title,
                                $description,
