@@ -7,14 +7,16 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 ----------
 */ ?>
 
-<?php
-if(!isset($_GET['ss'])){?>
 <h1>Dokumenty</h1>
 <p>V této sekci se nachází hráčské dokumenty ze světa Erinoru.</p>
- <?php
-   seznam_pisemnosti("dokumenty");
+<?php
+$name = "dokumenty";
+if (!isset($this->ss))
+{
+    seznam_pisemnosti($name);
 }
-else{
-   echo vypis_pisemnost("pisemnosti/dokumenty/".najdi_pisemnost($_GET['ss'], "dokumenty"));
+else
+{
+    echo vypis_pisemnost("pisemnosti/$name/".najdi_pisemnost($this->ss, $name));
 }
 ?>

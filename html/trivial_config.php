@@ -114,4 +114,5 @@ require CFG_TRIVIAL_PATH.DS.'autoloader.php';
 \Core\Router::GetDefaultRouter()->AddRule("/^$/", '\Erinor\Controller\Index::MainRoute');
 \Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>[\w-]+)\/?$/", '\Erinor\Controller\Index::MainRoute');
 \Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>[\w-]+)\/(?P<sc>[\w-]+)\/?$/", '\Erinor\Controller\Index::MainRoute');
+\Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>[\w-]+)\/(?P<sc>[\w-]+)\/(?P<ss>[\w-]+)\/?$/", '\Erinor\Controller\Index::MainRoute');
 
