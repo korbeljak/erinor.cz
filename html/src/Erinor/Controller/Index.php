@@ -37,8 +37,8 @@ class Index
     {
         $pm = self::GetPageAndMenu($args);
         
-        var_dump($pm);
-        var_dump($args);
+        // var_dump($pm);
+        // var_dump($args);
         
         $meta = file_get_contents ($pm["page"], null, null, null, 512);
         $title = "";
@@ -70,7 +70,8 @@ class Index
         {
             $properties["ss"] = $args['ss'];
         }
-        var_dump($properties);
+        
+        // var_dump($properties);
         
         $page = new \Core\Page($title,
                                $description,
