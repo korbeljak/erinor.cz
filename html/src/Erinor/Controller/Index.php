@@ -65,7 +65,7 @@ class Index
         $properties = array();
         $properties["page"] = $pm["page"];
         $properties["menu"] = $pm["menu"];
-        
+        $properties["ss"] = null;
         if (isset($args['ss']))
         {
             $properties["ss"] = $args['ss'];

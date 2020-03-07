@@ -6,12 +6,14 @@ description = "Stránky LARPu Erinor, sekce od hráčů, Postavy";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
 */ ?>
-<h1>Postavy</h1>
-<p>V této sekci se nachází popis postav ze světa Erinoru.</p>
 <?php
 $name = "postavy";
-if (!empty($this->ss))
+if ($this->ss === null)
 {
+?>
+<h1>Postavy</h1>
+<p>V této sekci se nachází popis postav ze světa Erinoru.</p>
+<?php 
     seznam_pisemnosti($name);
 }
 else

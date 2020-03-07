@@ -6,12 +6,14 @@ description = "Stránky LARPu Erinor, sekce od hráčů, Hřbitov";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
 */ ?>
-<h1>Hřbitov postav</h1>
-<p>V této sekci se nachází epilogy zemřelých postav Erinoru.</p>
 <?php
 $name = "hrbitov";
-if (!empty($this->ss))
+if ($this->ss === null)
 {
+?>
+<h1>Hřbitov postav</h1>
+<p>V této sekci se nachází epilogy zemřelých postav Erinoru.</p>
+<?php 
     seznam_pisemnosti($name);
 }
 else

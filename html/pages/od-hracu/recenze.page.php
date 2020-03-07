@@ -6,12 +6,14 @@ description = "Stránky LARPu Erinor, sekce od hráčů, Recenze";
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
 */ ?>
-<h1>Recenze</h1>
-<p>V této sekci se nachází recenze dílů Erinoru.</p>
 <?php
 $name = "recenze";
-if (!empty($this->ss))
+if ($this->ss === null)
 {
+?>
+<h1>Recenze</h1>
+<p>V této sekci se nachází recenze dílů Erinoru.</p>
+<?php 
     seznam_pisemnosti($name);
 }
 else

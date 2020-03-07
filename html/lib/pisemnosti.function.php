@@ -49,7 +49,7 @@ function nahled_pisemnosti($cesta_soubor, $sekce, $seo_nazev){
    }
    fclose($f);
    $pisemnost = "<h4><a href=\"od-hracu/".$sekce."/".$seo_nazev."/\">".$o[0]."</a></h4>\n";
-   $pisemnost .= "<p class=\"bez pridal\">Přidal ".$o[2]." ve ".$o[1]."</p>\n";
+   $pisemnost .= "<p class=\"bez pridal\">Přidal/a ".$o[2]." ve ".$o[1]."</p>\n";
    $pisemnost .= "<p>".$o[3]."</p><br><br>\n";
    return $pisemnost;
 }
@@ -114,7 +114,7 @@ function vypis_pisemnost($cesta_soubor){
    $texy = new Texy();
    $texy->setOutputMode(Texy::HTML4_STRICT);
    $pisemnost = "<h1>".$o[0]."</h1>\n";
-   $pisemnost .= "<p class=\"bez pridal\">Přidal ".$o[2]." ve ".$o[1]."</p>\n";
+   $pisemnost .= "<p class=\"bez pridal\">Přidal/a ".$o[2]." ve ".$o[1]."</p>\n";
    $pisemnost .= "<p>".$o[3]."</p><br>\n";
    $pisemnost .= $texy->process($o[4]);
    return stripslashes($pisemnost);
