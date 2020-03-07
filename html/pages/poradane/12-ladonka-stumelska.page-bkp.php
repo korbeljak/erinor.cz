@@ -1,9 +1,11 @@
+<?php /*
 title = "Stránky LARPu Erinor (pořádané skupinou Pilirion) &ndash; Pořádané - Ladoňka stumelská";
 keywords = "larp, erinor, fantasy, dřevárny, roleplay, svět, ladoňka, stumelská";
 description = "Stránky LARPu Erinor - sekce pořádané - Ladoňka stumelská";
 
 Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text pod čarou.
 ----------
+*/ ?>
 <?php /*
 require_once "lib/sql.class.php";
 require_once 'lib/hlavni.const.php';

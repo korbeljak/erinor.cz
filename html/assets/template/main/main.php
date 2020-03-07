@@ -1,122 +1,18 @@
 <?php
-
 $rootPath = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'];
 $GLOBALS['path'] = substr($rootPath, 0, strrpos($rootPath, "/"))."/";
 
 require_once "kalendar/lithensky_kalendar.php";
 require_once "lib/pisemnosti.function.php";
 require_once "lib/texy.min.php";
-
-class ParsePage
-{
-   public $separator = "----------";
-   protected $source = "";
-
-   public $meta = "";
-   public $page = "";
-
-   public $title = ""; // Default values.
-   public $description = ""; // Default values.
-   public $keywords = ""; // Default values.
-
-   protected $chyby;
-
-   public function __construct($source)
-   {
-      if (is_file($source))
-      {
-         $this->source = file_get_contents($source);
-      }
-      else
-      {
-         $this->chyby[] = "Zdrojový soubor nemohl být načten";
-      }
-   }
-   public function splitPage()
-   {
-      if (preg_match("/".preg_quote($this->separator)."/", $this->source))
-      {
-         $page_part = explode($this->separator, $this->source);
-         $this->meta = $page_part[0];
-         $this->page = $page_part[1];
-      }
-      else
-      {
-         $this->varovani[] = "Soubor nemá uvedené žádné metainformace";
-         $this->meta = "";
-         $this->page = $this->source;
-      }
-   }
-   public function extractMeta()
-   {
-      if ($this->meta != "")
-      {
-         if(preg_match("/title[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $t)) $this->title = $t[1];
-         if(preg_match("/description[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $d)) $this->description = $d[1];
-         if(preg_match("/keywords[ ]*=[ ]*\"([^\"]*)\";/im", $this->meta, $k)) $this->keywords = $k[1];
-      }
-      else $this->varovani[] = "Soubor nemá uvedené žádné metainformace - není co extrahovat";
-   }
-}
-
-if (isset($_GET['ca'])
-   && !isset($_GET['sc'])
-   && !empty($_GET['ca'])
-   && is_file('pages/'.$_GET['ca'].'.page.php'))
-{
-   $source = 'pages/'.$_GET['ca'].'.page.php';
-}
-elseif (isset($_GET['ca'])
-        && isset($_GET['sc'])
-        && !empty($_GET['ca'])
-        && !empty($_GET['sc'])
-        && is_file('pages/'.$_GET['ca'].'/'.$_GET['sc'].'.page.php'))
-{
-   $source = 'pages/'.$_GET['ca'].'/'.$_GET['sc'].'.page.php';
-}
-else
-{
-   $source = 'pages/uvod.page.php';
-}
-
-/*MENU*/
-
-if (isset($_GET['ca'])
-    && !empty($_GET['ca'])
-    && is_file('menus/'.$_GET['ca'].'.menu.php'))
-{
-   $menu = 'menus/'.$_GET['ca'].'.menu.php';
-}
-else
-{
-   $menu = 'menus/uvod.menu.php';
-}
-
-/*ASSIGN*/
-
-$pg = new ParsePage($source);
-$pg->title = "Stránky LARPu Erinor (pořádané skupinou Pilirion)";
-$pg->keywords = "larp, erinor, fantasy, dřevárny, roleplay";
-$pg->description = "Stránky LARPu Erinor";
-$pg->splitPage();
-$pg->extractMeta();
-$title = $pg->title;
-$keywords = $pg->keywords;
-$description = $pg->description;
-$contents = $pg->page;
-$tmpfname = tempnam(sys_get_temp_dir(), "t");
-$l = fopen($tmpfname, "w");
-fwrite($l, $contents);
-fclose($l);
 ?>
-<?php /*TEMPLATE*/ ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<title><?=$title;?></title>
+<title><?=$this->title;?></title>
 <meta name="author" content="sirkubador">
-<meta name="keywords" content="<?=$keywords;?>">
-<meta name="description" content="<?=$description;?>">
+<meta name="keywords" content="<?=$this->keywords;?>">
+<meta name="description" content="<?=$this->description;?>">
 <meta name="robots" content="index, follow">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="expires" content="0">
@@ -151,11 +47,11 @@ fclose($l);
    <li><a href="kontakty/">Kontakty</a></li>
 </ul>
 <div id="podmenu">
-<?php include($menu); ?>
+<?php include($this->menu); ?>
 <div id="erinorske_datum">Dnešní Erinorské datum: <?=lithen_date(new \DateTime())?></div>
 </div>
 <div id="obsah">
-<?php @include($tmpfname); ?>
+<?php @include($this->page); ?>
 </div>
 <div id="patka">
 Copyright note:<br>
@@ -168,5 +64,4 @@ last modified: <?php echo date("j. n. Y H:i:s",filemtime("changelog.txt")); ?>
 </body>
 
 </html>
-<?php @unlink($tmpfname); ?>
 

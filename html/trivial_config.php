@@ -84,7 +84,7 @@ define('CFG_SITE_DEFAULT_DESCRIPTION', "Stránky LARPu Erinor");
  * Default Site Keywords.
  * @var CFG_SITE_DEFAULT_KEYWORDS
  */
-define('CFG_SITE_DEFAULT_KEYWORDS', "larp, erinor, fantasy, dřevárny, roleplay");
+define('CFG_SITE_DEFAULT_KEYWORDS', "larp,erinor,fantasy,dřevárny,roleplay");
 
 /**
  * Default Theme path - concatenation of theme name and template path.
@@ -112,6 +112,6 @@ require CFG_TRIVIAL_PATH.DS.'autoloader.php';
 // Here go the routes / routing rules.
 
 \Core\Router::GetDefaultRouter()->AddRule("/^$/", '\Erinor\Controller\Index::MainRoute');
-\Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>\w+)$/", '\Erinor\Controller\Index::MainRoute');
-\Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>\w+)\/(?P<sc>\w+)$/", '\Erinor\Controller\Index::MainRoute');
+\Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>[\w-]+)\/?$/", '\Erinor\Controller\Index::MainRoute');
+\Core\Router::GetDefaultRouter()->AddRule("/^(?P<ca>[\w-]+)\/(?P<sc>[\w-]+)\/?$/", '\Erinor\Controller\Index::MainRoute');
 
