@@ -1,17 +1,50 @@
-function oknoFotky(a){
-   okno = window.open("", "fotka", "width=660, height=680");
-   //okno.document.write("<html><body><img src=\""+a+"\" onclick=\"window.close()\"></body></html>");
-   //okno.onclick(okno.close());
-}
-/*fotky = document.getElementById("fotky").getElementsByClassName("a");
-document.write(fotky.length);
-for(i = 0; i < fotky.length; i++) {
-document.write(fotky[i].value);
-}*/
+lastOne = null;
 
- $(document).ready(function() {
-   $("div.fotky a:active").click(function() {
-         oknoFotky($("div.fotky a:active").attr("href"));
-         $("div.fotky a:active").attr("target", "fotka");
-   });
- });
+jQuery.fn.center = function () {
+    this.css("position","absolute");
+    var oh = $(this).outerHeight();
+    var ow = $(this).outerWidth();
+    var top = Math.max(0, (($(window).height() - oh) / 2) + 
+            $(window).scrollTop());
+    var left = Math.max(0, (($(window).width() - ow) / 2) + 
+            $(window).scrollLeft());
+    
+    this.css("top", top + "px");
+    this.css("left", left + "px");
+    return this;
+}
+
+function oknoFotky(element)
+{
+	var a = element;
+	if (a.nodeName != "A")
+	{
+		a = element.parentElement;
+	}
+	
+	console.log("Looking for "+a.href);
+	
+	if (lastOne != null)
+	{
+		lastOne.remove();
+	}
+	
+	lastOne = $('<img src="'+a.href+'">');
+	lastOne.on('load', function() { lastOne.center(); })
+	
+	lastOne.click(function(event)
+    {
+        event.target.remove();
+    });
+	
+	$("div#telo").append(lastOne);
+}
+
+
+$(document).ready(function() {
+    $("a.thumb").click(function(event)
+    {
+    	event.preventDefault();
+        oknoFotky(event.target);
+    });
+});

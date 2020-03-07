@@ -17,9 +17,9 @@ require_once "lib/texy.min.php";
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="expires" content="0">
 <link rel="stylesheet" href="<?=$GLOBALS['path'];?>css/css.css" type="text/css" media="screen">
-<base href="<?=$GLOBALS['path'];?>">
-<script type="text/javascript" src="<?=$GLOBALS['path'];?>js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="<?=$GLOBALS['path'];?>js/fotky.js"></script>
+<base href="<?=$GLOBALS['path'];?>">
 <!--[if lte IE 6]>
 <link rel="shortcut icon" href="favicon.ico">
 <![endif]-->
