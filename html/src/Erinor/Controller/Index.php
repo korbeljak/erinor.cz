@@ -37,7 +37,7 @@ class Index
     {
         $pm = self::GetPageAndMenu($args);
         
-        // var_dump($pm);
+        var_dump($pm);
         
         $meta = file_get_contents ($pm["page"], null, null, null, 512);
         $title = "";
