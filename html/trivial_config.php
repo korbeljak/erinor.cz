@@ -1,6 +1,6 @@
 <?php
 /**
- * @file svjcore_config.php
+ * @file trivial_config.php
  * 
  * This is an installed file of Trivial system.
  * 

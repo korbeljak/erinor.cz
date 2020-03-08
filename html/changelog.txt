@@ -11,6 +11,13 @@
 ~ *
 : Všechno.
 
+21. 12. 2019 14:53
+* Kořen
+~ /pages/svet/lithensky-kalendar.page.php
+~ /kalendar/lithensky_kalendar.php
+~ /kalendar/index.php
+: Opravy kalendáře.
+
 15. 07. 2009 10:50
 * Kořen
 + img/mapy/lithen/lazovice.png

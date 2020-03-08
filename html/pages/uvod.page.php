@@ -10,11 +10,15 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 <?/* pripustne typy P tagu - class: novinka, oprava, upozorneni */?>
 <div class="novinkovnik">
    <h4>Novinkovník</h4>
-      <p class="novinka">
+   <p class="novinka">
+      <em class="datum">7. 3. 2020 20:51</em> &ndash; <strong class="nadpis">Erinor - Belladonna</strong><br>
+      Připravujeme!
+   </p>
+   <p class="novinka">
       <em class="datum">29. 3. 2011 00:17</em> &ndash; <strong class="nadpis">Erinor - Stříbrní kapři</strong><br>
       Informace o mezidílu jsou tu!
    </p>
-      <p class="upozorneni">
+   <p class="upozorneni">
       <em class="datum">5. 10. 2011 19:38</em> &ndash; <strong class="nadpis">Fotky</strong><br>
       Kočičí zaklínání je za námi. Fotky jsou nahrány a epilog bude v nejbližších dnech.
    </p>
