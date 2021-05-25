@@ -13,3 +13,5 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 Známo je také, že se ve městě vaří nejlepší pivo v celém Alderahu. Lazovičtí pak tvrdí, že jejich pivo je nejlepší v celé Lithénské federaci, i když o to zápasí ještě některá tradiční ragadornská piva.
 </p><p>Poslední známou zvláštností v tomto městě je stará vyhláška, snad už z dob založení města před pár sty lety, která nutí všechny obyvatele Přístavní a Rybářské čtvrti nosit viditelně růžovou stužku coby znak příslušnosti k městské chudině žijící v nejhorší části města. Samozřejmě v Rybářské a Přístavní žijí i všichni lidé bez stálého bydlení, je zde noclehárna pro nemajetné a sirotčinec. (K tomuto omezení se vztahuje i nutnost uložit vaši postavu někde na noc ke klidnému spánku. Pokud budete nocovat venku na ulici, může se vám stát leccos nepěkného.) Majitelé a obyvatelé domů v ostatních čtvrtích Řemeslnické, Obchodnické, Chrámové a Katovské pak samozřejmě stuhu nenosí.
 </p>
+
+<p>Proslavený lazovický pivovar Lazovar byl založen v roce 1284.</p>
