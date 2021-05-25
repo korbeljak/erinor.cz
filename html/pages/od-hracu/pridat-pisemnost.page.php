@@ -114,7 +114,7 @@ $_SESSION["cislo_otazky"] = mt_rand(0, count($otazky)-1);
    </td>
 <tr><td>Název písemnosti:</td><td><input type="text" name="pisemnost_nazev" id="pisemnost_nazev" value="<?=$tmp_pole["nazev"];?>"></td>
 <tr><td>Popis:</td><td><textarea name="pisemnost_popis" id="pisemnost_popis"><?=$tmp_pole["popis"];?></textarea></td>
-<tr><td>Obsah:<br>(Je možné používat<br>syntaxi <a href="http://texy.info/cs/">Texy!</a>)</td><td><textarea name="pisemnost_obsah" id="pisemnost_obsah" class="text" style="width: 650px;"><?=$tmp_pole["obsah"];?></textarea></td>
+<tr><td>Obsah:<br>(Je možné používat<br>syntaxi <a href="https://www.markdownguide.org/">Markdown!</a>)</td><td><textarea name="pisemnost_obsah" id="pisemnost_obsah" class="text" style="width: 650px;"><?=$tmp_pole["obsah"];?></textarea></td>
 <tr><td>Podpis autora:</td><td><input type="text" name="pisemnost_podpis" id="pisemnost_podpis" value="<?=$tmp_pole["podpis"];?>"></td>
 <tr><td colspan="2"><input type="submit" name="odeslat" value="Odeslat písemnost!"></td>
 </table>

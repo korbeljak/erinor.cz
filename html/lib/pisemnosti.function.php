@@ -111,12 +111,11 @@ function vypis_pisemnost($cesta_soubor){
       //echo $r."<br>";
    }
    fclose($f);
-   $texy = new Texy();
-   $texy->setOutputMode(Texy::HTML4_STRICT);
+   $pd = new Parsedown();
    $pisemnost = "<h1>".$o[0]."</h1>\n";
    $pisemnost .= "<p class=\"bez pridal\">Přidal/a ".$o[2]." ve ".$o[1]."</p>\n";
    $pisemnost .= "<p>".$o[3]."</p><br>\n";
-   $pisemnost .= $texy->process($o[4]);
+   $pisemnost .= $pd->text($o[4]);
    return stripslashes($pisemnost);
    }
 }

@@ -4,7 +4,7 @@ $GLOBALS['path'] = substr($rootPath, 0, strrpos($rootPath, "/"))."/";
 
 require_once "kalendar/lithensky_kalendar.php";
 require_once "lib/pisemnosti.function.php";
-require_once "lib/texy.min.php";
+require_once "lib/Parsedown.php";
 ?>
 <!DOCTYPE html>
 <html>
