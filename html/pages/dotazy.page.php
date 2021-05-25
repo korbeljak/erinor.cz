@@ -8,3 +8,5 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 */ ?>
 <h1>Dotazy</h1>
 <p>Bývala tu návštěvní kniha</p>
+
+<a href="https://www.facebook.com/Belladonna-1501031200129841">Povídejte si s námi přes facebook!</a>

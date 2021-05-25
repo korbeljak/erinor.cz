@@ -48,7 +48,7 @@ require_once "lib/Parsedown.php";
 </ul>
 <div id="podmenu">
 <?php include($this->menu); ?>
-<div id="erinorske_datum">Dnešní Erinorské datum: <?=lithen_date(new \DateTime())?></div>
+<div id="erinorske_datum"><a href="svet/lithensky-kalendar/">Dnešní Erinorské datum: <?=lithen_date(new \DateTime())?></a></div>
 </div>
 <div id="obsah">
 <?php @include($this->page); ?>
@@ -56,7 +56,7 @@ require_once "lib/Parsedown.php";
 <div id="patka">
 Copyright note:<br>
 design &amp; code: <a href="mailto:sirkubadorZAVINACseznamTECKAcz">sirkubador</a>,
-content: <a href="http://pilirion.cz">Pilirion</a> &amp; members<br>
+content: <a href="http://www.pilirionos.org/">Pilirion</a> &amp; members<br>
 All rights reserved.<br>
 last modified: <?php echo date("j. n. Y H:i:s",filemtime("changelog.txt")); ?>
 </div>

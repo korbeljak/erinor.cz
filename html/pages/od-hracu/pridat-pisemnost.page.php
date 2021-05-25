@@ -8,7 +8,7 @@ Sem lze napsat libovolný komentář, nebude zobrazen. Zobrazí se pouze text po
 */ ?>
 <?php
 $otazky = array(
-"Kdy byl založen Lazovar? (Nápověda: Příští rok tomu bude sto padesát let)",
+"Kdy byl založen Lazovar? (Nápověda: Příští rok tomu bude sto padesát let; psáno 2009 n. l.)",
 "Kolik grošů je 1 tolar?"
 );
 $odpovedi = array(
