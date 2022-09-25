@@ -1,0 +1,1 @@
+&raquo;&nbsp;<a href="svet/">historie a pozadí</a>&nbsp;&raquo;&nbsp;<a href="svet/mapy/">mapy</a>&nbsp;&raquo;&nbsp;<a href="svet/nabozenstvi/">náboženství</a>

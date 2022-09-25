@@ -64,7 +64,7 @@ function checked_date($realDate, $winterSolsticeDate)
         $eyear += 10;
     }
     
-    if ($days > 364)
+    if ($days >= 364)
     {
         return "Jsou dlouhonoční svátky, dny, na jejichž datum si nikdo ani nevzpomene - poslední ozvěny roku ".$eyear;
     }
@@ -110,3 +110,23 @@ function lithen_date($realDate)
     }
 }
 ?> 
+
+
+<?php
+$unittest = false;
+if ($unittest):
+
+// create DateTime instance, holding the current datetime
+$datetime = new DateTime();
+// create one day interval
+$interval = new DateInterval('P1D');
+for ($i = 0; $i < 5*366; $i++)
+{
+    // modify the DateTime instance
+    $datetime->add($interval);
+    
+    echo lithen_date($datetime) . " (".$datetime->format('Y-m-d').")\n";
+}
+
+endif;
+?>
